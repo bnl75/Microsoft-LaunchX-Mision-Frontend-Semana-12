@@ -31,11 +31,12 @@
 					<div class="collapse navbar-collapse justify-content-between" id="navbarNav">
 						<div class="navbar-nav">
 							<a class="nav-link" href="index.html">Inicio</a>
+							<a class="nav-link" href="pedidos.html">Pedidos
+							</a>
 							<a class="nav-link active" href="#">
-								Pedidos
+								Inventario
 								<div class="link-dot"></div>
 							</a>
-							<a class="nav-link" href="inventario.html">Inventario</a>
 						</div>
 					</div>
 				</div>
@@ -44,96 +45,95 @@
 
 
 		<main class="container pb-5">
-			<h1 class="display-4 text-uppercase fw-500 text-center py-5">Pedidos recibidos</h1>
+			<h1 class="display-4 text-uppercase fw-500 text-center py-5">Inventario</h1>
 
-			<div class="table-responsive">
-				<table class="table table-striped table-hover tabla">
-					<thead class="table-head-negro">
-						<tr>
-							<th class="align-middle" scope="col">#</th>
-							<th class="align-middle" scope="col">Nombre completo</th>
-							<th class="align-middle" scope="col">Correo electrónico</th>
-							<th class="align-middle" scope="col">Teléfono</th>
-							<th class="align-middle" scope="col">Fecha entrega</th>
-							<th class="align-middle" scope="col">Comentarios</th>
-							<th class="align-middle" scope="col">Sabores</th>
-							<th class="align-middle" scope="col">Adornos</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<th scope="row">1</th>
-							<td>Ricardo Martín Pichardo Alonso</td>
-							<td>ricardo@correo.io</td>
-							<td>5566070439</td>
-							<td>15/03/2022</td>
-							<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, labore.</td>
-							<td>Chocoquesino, Tartufino</td>
-							<td>Figuras de chocolate</td>
-						</tr>
-						<tr>
-							<th scope="row">2</th>
-							<td>Ana Sofía Medina Almanza</td>
-							<td>anasofia@correo.io</td>
-							<td>5599269917</td>
-							<td>16/03/2022</td>
-							<td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius, numquam repudiandae.</td>
-							<td>Rojifrutino</td>
-							<td>Comestibles personalizados</td>
-						</tr>
-						<tr>
-							<th scope="row">3</th>
-							<td>Lorenzo Antonio Murillo Díaz</td>
-							<td>antonio@correo.io</td>
-							<td>5513364370</td>
-							<td>17/03/2022</td>
-							<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia laboriosam exercitationem ab.</td>
-							<td>Chocoquesino, Napolitano</td>
-							<td>Frutos rojos, Figuras de chocolate</td>
-						</tr>
-						<tr>
-							<th scope="row">4</th>
-							<td>Juan Esteban Calderón Cisneros</td>
-							<td>juan@correo.io</td>
-							<td>5516596789</td>
-							<td>18/03/2022</td>
-							<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eligendi maxime magnam reiciendis.</td>
-							<td>Tartufino, Rojifrutino</td>
-							<td>Cubierta de fondant</td>
-						</tr>
-						<tr>
-							<th scope="row">5</th>
-							<td>Pablo Ayala Osorio</td>
-							<td>pablo@correo.io</td>
-							<td>5511815923</td>
-							<td>19/03/2022</td>
-							<td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum aperiam pariatur ad non quasi?</td>
-							<td>Chocoquesino</td>
-							<td>Figuras de chocolate, Cubierta de fondant</td>
-						</tr>
-						<tr>
-							<th scope="row">6</th>
-							<td>María Camila Villalpando</td>
-							<td>maria@correo.io</td>
-							<td>5592394540</td>
-							<td>20/03/2022</td>
-							<td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum mollitia error magni beatae asperiores debitis.</td>
-							<td>Napolitano, Tartufino</td>
-							<td>Frutos rojos, Cubierta de fondant</td>
-						</tr>
-						<tr>
-							<th scope="row">7</th>
-							<td>Sebastián Ríos Enríquez</td>
-							<td>sebastian@correo.io</td>
-							<td>5518896534</td>
-							<td>21/03/2022</td>
-							<td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere maxime alias assumenda a nihil obcaecati ipsa.</td>
-							<td>Napolitano, Rojifrutino</td>
-							<td>Figuras de chocolate</td>
-						</tr>
-					</tbody>
-				</table>
-			</div> <!-- table-responsive -->
+			<div class="card shadow-lg p-4">
+				<h2 class="text-uppercase fw-400 text-center py-3">Sabores</h2>
+
+				<div class="table-responsive">
+					<table class="table table-hover tabla">
+						<thead class="table-head-negro">
+							<tr>
+								<th class="align-middle" scope="col">ID</th>
+								<th class="align-middle" scope="col">Sabor</th>
+								<th class="align-middle" scope="col">Cantidad disponible</th>
+								<th class="align-middle" scope="col">Proveedor</th>
+								<th class="align-middle" scope="col">Última fecha de entrega</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Chocoquesino</td>
+								<td>Para 13 pasteles</td>
+								<td>Chocolatera Rossi<br><small><a class="link-negro" href="tel:5599456829"><u>5599456829</u></a></small><br><small><a class="link-negro" href="mailto:rossi@correo.io"><u>rossi@correo.io</u></a></small></td>
+								<td>Miércoles 2 de marzo de 2022</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Napolitano</td>
+								<td>Para 21 pasteles</td>
+								<td>Panadería Gourmetia<br><small><a class="link-negro" href="tel:5574637849"><u>5574637849</u></a></small><br><small><a class="link-negro" href="mailto:gourmetia@correo.io"><u>gourmetia@correo.io</u></a></small></td>
+								<td>Miércoles 16 de febrero de 2022</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Tartufino</td>
+								<td>Para 4 pasteles</td>
+								<td>Sweet Factory MX<br><small><a class="link-negro" href="tel:5574678943"><u>5574678943</u></a></small><br><small><a class="link-negro" href="mailto:sweet_factory@correo.io"><u>sweet_factory@correo.io</u></a></small></td>
+								<td>Lunes 7 de marzo de 2022</td>
+							</tr>
+							<tr>
+								<th scope="row">4</th>
+								<td>Rojifrutino</td>
+								<td>Para 17 pasteles</td>
+								<td>Frutos Sr. Huerto<br><small><a class="link-negro" href="tel:5584783293"><u>5584783293</u></a></small><br><small><a class="link-negro" href="mailto:srhuerto@correo.io"><u>srhuerto@correo.io</u></a></small></td>
+								<td>Jueves 3 de marzo de 2022</td>
+							</tr>
+						</tbody>
+					</table>
+				</div> <!-- table-responsive -->
+			</div> <!-- card shadow -->
+
+			<div class="py-5"></div>
+
+			<div class="card shadow-lg p-4">
+				<h2 class="text-uppercase fw-400 text-center py-3">Adornos</h2>
+
+				<div class="table-responsive">
+					<table class="table table-hover tabla">
+						<thead class="table-head-negro">
+							<tr>
+								<th class="align-middle" scope="col">ID</th>
+								<th class="align-middle" scope="col">Adorno</th>
+								<th class="align-middle" scope="col">Cantidad disponible</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Frutos rojos</td>
+								<td>Para 32 pasteles</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Figuras de chocolate</td>
+								<td>Para 28 pasteles</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Cubierta de fondant</td>
+								<td>Para 19 pasteles</td>
+							</tr>
+							<tr>
+								<th scope="row">4</th>
+								<td>Comestibles personalizados</td>
+								<td>Para 35 pasteles</td>
+							</tr>
+						</tbody>
+					</table>
+				</div> <!-- table-responsive -->
+			</div> <!-- card shadow -->
 		</main>
 
 		<!-- INICIA CONTACTO -->
