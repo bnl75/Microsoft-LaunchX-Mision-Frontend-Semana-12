@@ -167,6 +167,8 @@ footer > div > ul.border-bottom {
 }
 /* FIN MENU */
 
+
+
 /* INICIO PEDIDO */
 #header-pedido {
     background: #000;
@@ -179,3 +181,16 @@ footer > div > ul.border-bottom {
     height: 100vh;
 }
 /* FIN PEDIDO */
+
+
+
+/* INICIO PASTELERO */
+.vh-90 {
+    height: 90vh;
+}
+
+.table-head-negro {
+    background-color: #000;
+    color: var(--rosa);
+}
+/* FIN PASTELERO */
